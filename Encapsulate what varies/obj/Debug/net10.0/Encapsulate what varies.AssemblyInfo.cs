@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Encapsulate what varies")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+848ab59550e7023280363150d40d8170eac5e3e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c34a92bc74d100e54ae3c325afff0e200f2edcf1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Encapsulate what varies")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Encapsulate what varies")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

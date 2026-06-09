@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Favor_Composition_Over_Inheritance
 {
-    public class SMSDeveloper : Employee
+    public interface ISendNotification
     {
-        public override void SendNotification()
-        {
-            Console.WriteLine("sending message to phone number");
-        }
+        public void Send(string message);
     }
 }

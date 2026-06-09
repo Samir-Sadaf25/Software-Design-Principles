@@ -2,9 +2,15 @@
 {
     public class Employee
     {
-        public virtual void SendNotification()
+        private readonly ISendNotification _sendNotification;
+        public string Name { get; set; }
+        public Employee(ISendNotification sendNotification)
         {
-            Console.WriteLine("Sending Email");
+            _sendNotification = sendNotification;
+        }
+        public void notify()
+        {
+            _sendNotification.Send($"hello {Name}");
         }
     }
 }

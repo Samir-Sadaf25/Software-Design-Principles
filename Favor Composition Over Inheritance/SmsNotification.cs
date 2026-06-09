@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Favor_Composition_Over_Inheritance
 {
-    public class SlackManegar : Employee
+    public class SmsNotification : ISendNotification
     {
-        public override void SendNotification()
+        public void Send(string message)
         {
-            Console.WriteLine("Sending message to slack"); //changes are not developer..but notification system
+            Console.WriteLine($"send notification on phone message {message}");
         }
     }
 }

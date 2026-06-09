@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Favor_Composition_Over_Inheritance
 {
-    public class Manager : Employee
+    public class Manager 
     {
 
     }

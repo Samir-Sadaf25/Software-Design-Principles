@@ -11,6 +11,13 @@ namespace Prototype_Pattern
         public string Name { get; set; }
         public List<string> Skills { get; set; }
 
-       
+       public Employee Clone()
+        {
+            return new Employee
+            {
+                Name = this.Name,
+                Skills = this.Skills
+            };
+        }
     }
 }
